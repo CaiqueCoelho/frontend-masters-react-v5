@@ -13,8 +13,6 @@ class Carousel extends React.Component {
       photos = media.map(({ large }) => large);
     }
 
-    console.log(photos);
-
     return { photos };
   }
 
